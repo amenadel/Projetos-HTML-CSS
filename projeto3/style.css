@@ -1,0 +1,70 @@
+/*General*/
+
+body
+{
+    font-family: 'Open sans', Arial, Helvetica, sans-serif;
+    color:#666;
+    line-height: 1.7;
+    
+}
+
+a{
+    transition: color .2s linear;
+}
+
+/*Cabecalho*/
+
+.main-header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    padding: 124px 54px;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.5)), url("images/bg.jpg");
+    background-position: center top;
+    background-size: cover;
+    text-align: right;
+
+}
+
+.main-header-title a{
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px dotted;
+}
+
+.main-header-title a:hover
+{
+    color: rgba(191, 115, 44, 0.9);
+   
+}
+
+
+
+.main-header-title strong
+{
+    color: white;
+    font-weight: normal;
+}
+
+
+.main-header-title
+{
+    font-size: 22px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, .5);
+    
+}
+
+
+.main-content
+{
+    width: 65%;
+    padding: 124px 54px;
+    margin-left: 35%;
+    box-sizing: border-box;
+    background-size: cover;
+}
