@@ -5,7 +5,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open sans", sans-serif;
+    line-height: 1.5;
+}
 
+img{
+    max-width: 100%;
+
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1em;
+    padding-right: 1em ;
 }
 
 /*Header*/
@@ -85,10 +97,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("img/herobg.jpg");
-    background-size: cover;
     text-align: center;
+    justify-content: center;
+    background: linear-gradient(45deg, white 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat,
+                linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat, 
+                url("img/herobg.jpg");
+                background-size: 40px 40px, 40px 40px ,cover;
 }
 
 
@@ -135,5 +149,70 @@
 {
     transition: all ease-out .7s;
     opacity: .5;
+}
+
+
+/*Cards*/
+
+
+
+.people-cards
+{
+    margin-top: 2.5em;
+
+}
+
+.people-cards__card
+{
+   margin-top: 10px; 
+}
+.people-cards__card:hover
+{
+    outline: 5px solid #63c6ae;
+    outline-offset:-5px ;
+}
+
+.people-cards__card:hover .people-cards__avatar img
+{
+    transform: translateY(-50%);
+}
+
+.people-cards__card:hover .people-cards__title, .people-cards__card:hover .people-cards__text
+{
+    color: #4e9f8b;
+}
+
+
+.people-cards__image
+{
+    width: 100%;
+}
+
+.people-cards__avatar
+{
+    margin: -55px auto;
+    height: 88px;
+    width: 88px;
+    overflow: hidden;
+}
+
+.people-cards__content
+{
+    text-align: center;
+    padding: 40px 25px 10px;
+    border-left: 1px solid  #dbe1e7;
+    margin-top: 20px;
+}
+
+.people-cards__title
+{
+    color: #737c85;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.people-cards__text
+{
+    color: #929da5;
 }
 
