@@ -216,3 +216,180 @@ img{
     color: #929da5;
 }
 
+
+/*Content*/
+
+
+.content 
+{
+    background: #f8f9f9;
+    padding: 28px 0 80px;
+    border-top: 1px solid #e3e3e3;
+}
+
+.content h3
+{
+    color: #737c85;
+    font: 21px;
+    padding-top: 30px;
+    font-weight: 600;
+}
+
+.content p 
+{
+    color: #929da5;
+    font-size: 14px;
+    padding-top: 10px;
+    word-spacing: 3px;
+}
+
+
+.button
+{
+    padding: 15px 40px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+
+.button-primary
+{
+    background: #4e9f8b;
+}
+
+.button-secundary
+{
+    background: #929da5;
+}
+
+
+.button:hover
+{
+    background-color: #9229d5;
+    transition: all ease-in .7s;
+}
+
+
+
+/*Last articles*/
+
+
+.last-articles__title
+{
+    background: #63c6ae;
+    padding: 5px 0;
+}
+
+
+.last-articles__title h2
+{
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.last-articles__thumbs
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 0;
+    
+}
+
+.last-article__thumbs img
+{
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+
+/*Slide laptop*/
+
+
+.laptop
+{
+    background: #242a2c;
+    padding: 125px 0 100px;
+    width: 100%;
+    overflow: auto;
+}
+
+
+.slidershow
+{
+    white-space: nowrap;
+}
+
+
+.slidershow figure
+{
+    display:  inline-block;
+}
+
+
+/*Bloquote*/
+
+.quote-container
+{
+    background-color: #63c6ae;
+    padding: 50px 0;
+    border-bottom: 12px solid #48b9a1;
+}
+
+
+.quote-slideshow h2
+{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+.quote-slideshow figcaption
+{
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+.no-js .quote-slideshow figure + figure
+{
+    margin-top: 5em;
+}
+
+
+.footer
+{
+    background-color: #242a2c;
+    padding: 50px 20px 250px 20px;
+    color: #454e51;
+    font-size: 14px;
+}
+
+.footer__links li
+{
+    list-style: none;
+}
+
+.footer__links a 
+{
+    color: #454e51;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 1em;
+}
