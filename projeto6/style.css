@@ -30,6 +30,11 @@ img{
 
 }
 
+.js .header{
+    position: fixed;
+    
+}
+
 .logo-text
 {
     background-color: #63c6ae;
@@ -86,7 +91,10 @@ img{
 
 .header__btnmenu
 {
-
+    float: right;
+    margin: 1.5em;
+    background: white;
+    
 }
 
 
@@ -408,6 +416,12 @@ img{
     .header
     {
         position: fixed;
+    }
+
+    .js .header
+    {
+        position: fixed;
+        width: 100%;
     }
 
     .logo-text

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h3>Cadastre seu veículo para vender muito mais rápido!</h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Cadastro</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Venda fácil seu veículo!</h1>
+                <p>Descreva as caracteristicas do seu veículo e marque todas os opcionais e características que ele possui</p>
+                <!--A propriedade action tem como função envia os dados do formulário -->
+                <!--Method POST enviar dados/ GET buscar dados-->
+                <form action="form.php">
+                    <div class="box-input">
+                        <label for="title">Titulo do anúncio: <span class="required-field">*</span></label>
+                        <input type="text" name="title" id="title" class="block" placeholder="Defina um título para o seu veículo"
+                        minlength="1" maxlength="30" required> 
+
+                        <input type="submit" value="Cadastrar">
+                    </div>
+                    <div class="box-input">
+                        <label for="">Preço do veículo:<span class="required-field">*</span></label>
+                        <input type="number" name="price" id="price" class="block" required z placeholder="Digite o valor so veículo">
+                    </div>
+                    <div class="box-input">
+                        <label for="description">Descrição do veículo:<span class="required-field">*</span></label>
+                        <textarea name="description" id="description" cols="30" rows="10" required placeholder="Descreva seu veículo">
+
+                        </textarea>
+                    </div>
+                    <div class="input-box">
+                        <label for="">único dono? <span class="required-field">*</span></label>
+                        <select name="unique_owner" id="unique-owner" required>
+                            <option value="">Selecione...</option>
+                            <option value="1">Sim</option>
+                            <option value="0">Não</option>
+                        </select>
+                    </div>
+                    <div class="box-input">
+                        <label for="brand">
+                            Título do anúncio:
+                        </label>
+
+                        <input type="text" name="title" class="block" placeholder="Digite a marca do seu veículo" minlength="1" maxlength="30" required>
+                    </div>
+
+                    <div class="box-input">
+                        <label for="model">Modelo do veículo: <span class="required-field">*</span></label>
+                        <input type="text" name="model" id="model" class="block" placeholder="Digite o modelo do veículo" class="block" required>
+                    </div>
+
+                    <div class="box-input">
+                        <label for="mileage">Quilometragem: <span class="required-field">*</span></label>
+                        <input type="number" name="mileage" id="mileage" placeholder="Digite a quilometragem do veículo" class="block" required>
+                    </div>
+
+                    <div class="box-input">
+                        <label for="date">Data da compra do veículo: <span class="required-field">*</span></label>
+                        <input type="date" name="date" id="date" class="block" placeholder="Digite a data de compra do veículo">
+                    </div>
+
+                    <div class="box-input">
+                        <p>Câmbio: <span class="required-field">*</span></p>
+                        <input type="radio" name="gear" id="manual" >
+                        <label for="gear">Manual</label>
+                        <input type="radio" name="gear" id="auto">
+                        <label for="auto">Automático</label>
+                    </div>
+
+                    <div class="optional-box">
+                        <p>opcionais:</p>
+                        <ul class="optional_list">
+                            <li>
+                                <input type="checkbox" name="optional[]"  id="airbag" value="airbag">
+                                <label for="airbag">Airbag</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="optional[]" id="alarm" value="alarm">
+                                <label for="alarm">Alarm</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="optional[]" id="ac" value="ac">
+                                <label for="ac">Ar condicionado</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="optional[]" id="eletric-lock"  value="eletric-lock">
+                                <label for="eletric_lock">Travas elétricas</label>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="optional-box">
+                        
+                        <ul class="optional_list">
+                            <li>
+                                <input type="checkbox" name="optional[]"  id="eletric-window" value="eletric-window">
+                                <label for="eletric-window">Vidros elétricas</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="optional[]" id="speakers" value="speakers">
+                                <label for="speakers">Som</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="optional[]" id="reverse-camera" value="reverse-camera">
+                                <label for="reverse-camera">Câmera traseira</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="optional[]" id="leather_seat"  value="leather-seat">
+                                <label for="leather-seat">Banco de couro</label>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <input type="submit" value="Submit" class="btn-submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
