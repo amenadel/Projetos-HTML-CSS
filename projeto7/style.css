@@ -1,0 +1,158 @@
+/* General */
+*
+{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0fbf8;
+}
+
+
+h1, h2, h3, h4, h5
+{
+    color: #333;
+}
+
+p, label
+{
+    color: #444;
+}
+
+input
+{
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px;
+}
+
+input[type=text], input[type=number], input[type=date], input[type=file]
+{
+ width: 400px;
+}
+
+
+textarea
+{
+    padding: 10px 5px;
+    width: 400px;
+}
+
+/* Cabecalho da pagina */
+
+.header
+{
+    height: 160px;
+    padding: 20px;
+    background-color: #673ab7;
+}
+
+.header h3
+{
+    color: #fff;
+    margin-top: 0;
+    background-color: #673ab7;
+}
+
+/* Container do fomrmulário */
+
+.form-container
+{
+    background-color: #fff;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top:-62px;
+}
+
+/*cabecalho*/
+
+.form-header
+{
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.form-header p 
+{
+    color: #673ab7;
+    border-bottom: #673ab7 2px solid;
+    width: 100px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size:20px;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+}
+
+/* Corpo formulário */
+
+.form-body
+{
+    padding: 30px;
+}
+
+.form-title
+{
+    margin: 0;
+}
+
+.required-field
+{
+    color: red;
+}
+
+.box-input
+{
+    margin-bottom: 30px;
+}
+
+.block
+{
+    display: block;
+}
+
+
+.optional-box
+{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.optional_list
+{
+    padding-left: 0;
+}
+
+
+.optional_list li
+{
+    list-style: none;
+}
+
+.btn-submit
+{
+    background-color: #673ab7;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all ease-in-out 7s;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.btn-submit:hover
+{
+    background-color: #fff;
+    border-color: #673ab7;
+    color: #673ab7;
+}
+
+
+
