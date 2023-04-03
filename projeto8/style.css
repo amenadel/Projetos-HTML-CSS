@@ -1,0 +1,150 @@
+/* General */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+/* Header */
+
+
+.top_header
+{
+    background-color: rgb(122, 125, 130);
+    width: 100%;
+    
+}
+
+.container__header
+{
+    background: url("img/capa2.jpg");
+    background-size: cover;
+    background-position: center ;
+    height: 90vh;
+    width: 85%;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.banner__header
+{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7));
+    width: 400px;
+    height: 200px;
+    color: white;
+    position: absolute;
+    top: 135px;
+    right: 70px;
+    
+}
+
+
+.banner__header .title__header, .text__header
+{
+    text-align: center;
+    padding: 5px;
+   
+}
+
+.banner__header .title__header
+{
+    margin-top: 60px;
+}
+
+
+.content__header
+{
+    background:linear-gradient(rgba(204, 204, 204, .7) , rgba(204, 204, 204, .7));
+    position: absolute;
+    bottom: 0;
+    padding: 40px 50px 50px 50px;
+    width: 100%;
+
+    color: rgb(29, 32, 34);
+}
+
+.content__header .content-title__header
+{
+    margin-bottom: 10px;
+}
+
+.content__header .content-text__header
+{
+    width: 480px;
+}
+
+
+/* Section cards */
+
+.section-cards
+{
+    background: white;
+    height: 700px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.card
+{   
+    display: flex;
+    
+  
+}
+
+.thumb
+{
+    height: 170px;
+    width: 250px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+
+.card1 .thumb
+{
+    background-color: rgb(120, 92, 146);
+
+}
+
+.card2 .thumb
+{
+    background-color: rgb(76, 76, 143);
+}
+
+.card3 .thumb
+{
+    background-color: rgb(76, 143, 98);
+}
+
+
+.content-card
+{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.content-card .card-title__section
+{
+    margin-bottom: 15px;
+}
+
+
