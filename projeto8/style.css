@@ -85,7 +85,7 @@
 .section-cards
 {
     background: white;
-    height: 700px;
+    height: 650px;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -147,4 +147,115 @@
     margin-bottom: 15px;
 }
 
+/* Last section */
+
+.last-section
+{
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url("img/rodape.jpg");
+    background-size:cover;
+    background-position: center;
+    height: 850px;
+    width: 100%;
+   
+}
+
+
+.last-section_area
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.last-section__content
+{   
+    /*Box Formatting */
+    background-color: rgb(220, 214, 206);
+    width: 350px;
+    height: 250px;
+    padding: 1em 2em;
+    border-radius: 5px;
+    margin-top: 50px;
+
+    box-shadow: 2px 2px 5px;
+
+    /*Display Formatting*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /*Text Formatting*/
+    text-align: center;
+    
+}
+
+
+
+.last-section__content i
+{
+    font-size: 3.5em;
+    margin-bottom: 25px;
+}
+
+.fa-house
+{
+    color: rgb(80, 48, 109);
+}
+
+.fa-brush
+{
+    color: rgb(76, 143, 108);
+}
+
+.fa-github
+{
+    color: rgb(162, 72, 72);
+}
+
+
+
+.last-section__content p 
+{
+    /*Text Formatting*/
+    color: rgb(75, 81, 93);
+    line-height: 1.8;
+}
+
+/* Form area*/
+
+.form-area
+{   
+    /*Area box*/
+    background-color: hwb(0 80% 20% / 0.74);
+    height: 330px;
+    width: 600px;
+    margin-right: auto;
+    margin-left:auto ;
+
+    /*display*/
+   
+
+
+}
+
+.form-area form
+{
+   
+   
+  
+}
+
+
+.form-area form .input-box
+{
+
+    margin-bottom: 5px;
+}
+
+
+.form-area form .input-box .block
+{
+    display: block;
+}
 
