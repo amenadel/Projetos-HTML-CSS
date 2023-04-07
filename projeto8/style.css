@@ -7,7 +7,10 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
-
+.block
+{
+    display: block;
+}
 
 /* Header */
 
@@ -227,35 +230,68 @@
 .form-area
 {   
     /*Area box*/
-    background-color: hwb(0 80% 20% / 0.74);
-    height: 330px;
+    background-color: #ccccccbd;
+    height: 360px;
     width: 600px;
+    padding: 30px ;
+    margin-top: 60px;
     margin-right: auto;
     margin-left:auto ;
 
     /*display*/
-   
-
-
+    display: block;
+    
 }
 
-.form-area form
+.box-input
 {
-   
-   
-  
+    padding: 5px;
 }
 
-
-.form-area form .input-box
+.box-input input
 {
-
-    margin-bottom: 5px;
+    /*Box model*/
+    width: 250px;
+    padding-left: 15px;
+    /*Display*/
+    display: block;
+    /*Text formatting*/
+    line-height: 2;
+    
 }
 
-
-.form-area form .input-box .block
+.box-input input::placeholder
 {
+    color:rgb(80, 48, 109);
+    font-weight: bold; 
+    
+}
+
+.box-input textarea
+{
+    width: 100%;
+    height: 150px;
     display: block;
 }
+
+
+.btn-submit
+{   
+    background: rgba(162, 72, 72, 0.758);
+    padding: 1em 2.5em;
+    border: none;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left:auto ;
+    /*Display*/
+    display: block;
+    /*Formmating text*/
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: normal;
+    cursor: pointer;
+
+
+}
+
 
