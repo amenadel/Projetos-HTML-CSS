@@ -1,0 +1,157 @@
+/* General */
+*
+{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#body
+{
+    display: flex;
+    flex-direction: row;
+}
+/* Header */
+
+.header-top
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.647), rgba(0, 0, 0, 0.668)), url(img/project_bg.jpg);
+    background-position: center left;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+
+    /*Display */
+    display: inline-block;
+}
+
+
+.banner-area
+{
+    width: 400px;
+    position: relative;
+    top: 25%;
+    left: 35%;
+}
+
+.banner-box
+{ 
+    padding: 30px;
+    width: 400px;
+
+    /*text area*/
+    text-align: left;
+}
+
+.banner-box h2
+{
+    font-size: 1.5em;
+    color: rgb(48, 164, 99);
+}
+
+.banner-box h2 span
+{
+    margin-right: 15px;
+    font-weight: 900;
+}
+
+
+.banner-box p
+{
+    display: block;
+    color: antiquewhite;
+    margin-top: 15px;
+    text-align: left;
+    font-weight: 800;
+}
+
+/*Form area*/
+
+.content-area
+{
+
+    background-color: white;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.form-area p
+{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #908f8f;
+}
+
+.form-area
+{   
+    
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+}
+
+.box-input
+{
+    
+    margin-top: 15px;
+}
+
+
+.box-input label
+{
+    display: block;
+    padding: 15px;
+    border: 1px solid #dcdcdcd8;
+    font-size: 18px;
+    font-weight: 700;
+    color: #908f8f;
+    border-bottom: none;
+}
+
+.box-input input
+{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #dcdcdcd8;
+
+}
+
+.box-input textarea
+{
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    border: 1px solid #dcdcdcd8;
+}
+
+
+.box-input input::placeholder, .box-input textarea::placeholder
+{
+    color: #cbcbcb;
+}
+
+.form-area input[type="button"]
+{
+    background-color:rgb(48, 164, 99) ;
+    width: 380px;
+    padding: 15px 1.8em;
+    border: rgb(48, 164, 99);
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right:auto ;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+
+
+}
