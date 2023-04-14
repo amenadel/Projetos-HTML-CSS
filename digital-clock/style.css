@@ -16,6 +16,7 @@ body
     background-position: center bottom;
     /* Text Formmating */
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
 
 }
 
