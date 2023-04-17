@@ -1,0 +1,96 @@
+/* General */
+body
+{
+    /*Box Model*/
+    background-color: firebrick;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    /*Display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Text Fomatting */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+    text-align: center;
+    
+}
+
+.form
+{
+    /*Box Model*/
+    background-color: beige;
+    padding: 60px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 0 70px black;
+    /*Display*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ 
+
+.score
+{
+    /*Box Model*/
+    margin-top: -15px;
+    /*Text Formatting*/
+    color: rgb(35, 196, 35);
+    text-align: right;
+    font-size: 22px;
+}
+
+.question
+{
+    /*Text Formatting   */
+    color: rgb(44, 42, 42);
+}
+
+.input
+{
+    /*Box Model*/
+    padding-left: 10px;
+    border: 3px solid rgba(35, 196, 35, 0.7);
+    /*Text Formatting */
+    text-align: center;
+    font-weight: 900;
+    line-height: 2;
+}
+
+.input::placeholder
+{
+    /*Text Formatting*/
+    color: rgba(165, 42, 42, 0.647);
+    font-family: cursive;
+    font-size: 16px;
+}
+
+
+.btn
+{
+    /*Box Model*/
+    background-color: brown;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 5px  ;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    /*Text Formatting*/
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.btn:hover
+{
+    /*Box Model*/
+    background-color: rgba(218, 22, 22, 0.934);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+
+    transition: .7s all ease-in-out;
+    
+}
