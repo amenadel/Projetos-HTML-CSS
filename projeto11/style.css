@@ -175,9 +175,106 @@ section .main .button
     border-radius: 30px;
     background: linear-gradient(to right, #c72092, #6c14d0);
 }
+section .main .button:hover i 
+{
+    transform: translateX(6px);
+}
 
 section .main .button a, .fa-chevron-right
 {
     text-decoration: none;
     color:white;
 }
+
+/*Products*/
+
+.products
+{
+    width: 100%;
+    height: 140vh;
+    padding: 25px 0;
+}
+
+.products h1 
+{
+    margin: 35px 0;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.products .box
+{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+
+.products .box .card
+{
+    width: 290px;
+    height: 440px;
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: beige;
+}
+
+.products .box .card .small_card
+{
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    margin: 10px 0;
+    transform: translateX(-20px);
+    transition: 0.3s;
+}
+
+.products .box .card:hover .small_card
+{
+    transform: translateX(2px);
+    cursor: pointer;
+}
+
+.products .box .card .small_card i
+{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 2px 0;
+    line-height: 40px;
+    border: 2px solid #999;
+    transition: all .7s ease-in-out;
+}
+.products .box .card .image
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products .box .card .image img
+{
+    width: 150px;
+    margin: 15px 0;
+    transition: 0.3s;
+}
+
+.products .box .card:hover .image img
+{
+    transform: scale(1.1);
+}
+
+
+
