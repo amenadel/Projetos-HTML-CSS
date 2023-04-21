@@ -227,7 +227,7 @@ section .main .button a, .fa-chevron-right
     border-radius: 5px;
     text-align: center;
     padding: 10px 20px;
-    background-color: beige;
+    background-color:white;
 }
 
 .products .box .card .small_card
@@ -257,6 +257,47 @@ section .main .button a, .fa-chevron-right
     border: 2px solid #999;
     transition: all .7s ease-in-out;
 }
+
+.products .box .card .small_card i:hover
+{
+    color: #c72092;
+}
+
+
+.products .box .card .products_text h2
+{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.products .box .card .products_text p
+{
+    color: #191919;
+    line-height: 21px;
+    margin: 8px 0;
+}
+
+.products .box .card .products_text h3
+{
+    margin: 5px 0;
+}
+
+.products .box .card .products_text .products_star
+{
+    color: orange;
+    margin-bottom: 19px;
+    cursor: pointer;
+}
+
+.products .box .card .products_text .btn
+{
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+}
+
 .products .box .card .image
 {
     display: flex;
@@ -275,6 +316,216 @@ section .main .button a, .fa-chevron-right
 {
     transform: scale(1.1);
 }
+
+/*About*/
+
+.about
+{
+    width: 100%;
+    height: 100vh;
+    padding:  35px 0;
+}
+
+.about h1
+{
+    font-size: 60px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+
+}
+
+
+.about h1 span
+{
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 15px;
+}
+
+
+.about .about_main
+{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about .about_main .about_image
+{
+    display: flex;
+    margin-top: 50px;
+}
+
+.about .about_main .about_image .about_small_image
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 15px;
+}
+
+
+.about .about_main .about_image .about_small_image img
+{
+    height: 92px;
+    margin: 5px 0;
+    cursor: pointer;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    display: block;
+    border-radius: 6px;
+    padding: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+    opacity: .8;
+    transition: .3s all  ease-in;
+}
+
+
+.about .about_main .about_image .about_small_image img:hover
+{
+    opacity: 1;   
+}
+
+
+.about .about_main .image_container
+{
+    padding: 10px;
+    display: flex;
+}
+
+.about .about_main .image_container img
+{
+    border: 3px solid #6c14d0;
+    border-radius: 20px;
+    height: 430px;
+    padding: 30px;
+    box-shadow: 0 0 8px #6c14d0;
+}
+
+
+.about .about_main .about_text
+{
+    margin-top: 45px;
+}
+
+.about .about_main .about_text p
+{
+    background: linear-gradient(to left, #c72092, #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 22px;
+    width: 600px;
+    text-align: justify;
+    padding: 25px 30px;
+    border: 2px solid #c72092;
+    line-height: 1.7;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #c72092;
+}
+
+
+.about .about_btn
+{
+    color: black;
+    background: none;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    border: 2px solid #c72092;
+    text-decoration: none;
+    box-shadow: 0 0 8px #c72092;
+    color:  #6c14d0;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.about .about_btn:hover
+{
+    cursor: pointer;
+    background-color: #6c14d8a4;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+}
+
+
+/* Review */
+.review
+{
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+
+}
+
+.review h1 
+{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.review h1 span
+{
+    background: linear-gradient(to left, #c72092, #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 15px;
+}
+
+.review .review_box
+{
+    width: 95%;
+    position: relative;
+    top:7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.review .profile .profile_image
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 5px 0;
+    overflow:hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.review .profile .profile_image:hover
+{
+    transform: scale(1.2);
+}
+
+.review .profile_image img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
 
 
 
